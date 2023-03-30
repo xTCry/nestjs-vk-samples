@@ -69,7 +69,7 @@ export class EchoUpdate {
     if (reversedText) {
       return this.echoService.echo(reversedText);
     } else if (ctx.hasAttachments('sticker')) {
-      ctx.send({ sticker_id: ctx.getAttachments('sticker')[0].id % 24 }); // reply on all stickers just firs 24 sticker (Spotti dog)
+      ctx.send({ sticker_id: ctx.getAttachments('sticker')[0].id % 24 }); // reply on all stickers just first 24 sticker (Spotti dog)
       return;
     }
 
