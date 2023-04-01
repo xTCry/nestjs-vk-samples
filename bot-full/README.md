@@ -1,6 +1,6 @@
 # Description
 
-Example of bot with `Redis` as `session` storage
+Example of bot with `Redis` as `session` storage with `grafana` + `prometheus`
 
 # Configuration
 
