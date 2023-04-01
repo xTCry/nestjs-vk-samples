@@ -3,6 +3,7 @@
 - [`echo-bot`](https://github.com/xTCry/nestjs-vk-samples/tree/master/echo-bot) - sample for begginers
 - [`multiple-bots`](https://github.com/xTCry/nestjs-vk-samples/tree/master/multiple-bots) - sample multiple bots
 - [`bot-with-redis`](https://github.com/xTCry/nestjs-vk-samples/tree/master/bot-with-redis) - sample bot with `Redis` as `session` storage
+- [`bot-full`](https://github.com/xTCry/nestjs-vk-samples/tree/master/bot-with-redis) - sample bot with `Redis` as `session` storage and `grafana` + `prometheus`
 
 # Tips
 
@@ -46,3 +47,11 @@
 
 1. `VkExceptionFilter` catch all `VkException`
 2. `AdminGuard` throws `VkException` and `VkExceptionFilter` catched it, and send to user
+
+## Libs
+
+1. (@nestjs/config)[https://docs.nestjs.com/techniques/configuration]
+2. (ioredis)[https://www.npmjs.com/package//ioredis]
+3. (redlock)[https://www.npmjs.com/package/redlock]
+4. (@digikare/nestjs-prom)[https://www.npmjs.com/package/@digikare/nestjs-prom]
+5. (vk-io-redis-storage)[https://socket.dev/npm/package/vk-io-redis-storage]
