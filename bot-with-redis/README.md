@@ -17,6 +17,7 @@ Install [docker](https://www.docker.com/)
 # Running the app
 
 ```bash
+# docker
 $ docker compose up -d
 
 # development
