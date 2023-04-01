@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  redis:
+    image: 'redis:alpine'
+    restart: always
+    ports:
+      - '${REDIS_PORT}:${REDIS_PORT}'
+    volumes:
+      - ./redis-data:/data
