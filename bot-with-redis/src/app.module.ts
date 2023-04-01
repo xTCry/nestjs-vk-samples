@@ -4,7 +4,6 @@ import { VkModule } from 'nestjs-vk';
 
 import { BotModule } from './bot/bot.module';
 import { MainMiddleware } from './common/middleware/main.middleware';
-import { RedisModule } from './redis/redis.module';
 
 @Global()
 @Module({
@@ -27,7 +26,6 @@ import { RedisModule } from './redis/redis.module';
       }),
     }),
     BotModule,
-    RedisModule,
   ],
   providers: [MainMiddleware],
   exports: [MainMiddleware],
