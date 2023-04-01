@@ -36,6 +36,11 @@ $ yarn run start:prod
 1. `BOT_TOKEN` - created in vk bot token, see other tutorials
 2. `BOT_GROUP_ID` - group id, example `https://vk.com/club219624730` - `219624730`
 
+## Docker
+
+1. Install [docker](https://www.docker.com/)
+2. Documentation [docker](https://docs.docker.com/)
+
 ## Session
 
 1. `Session` save data in memory, if process terminated all data deletes, use `session` with some storage e.g. `Redis`
