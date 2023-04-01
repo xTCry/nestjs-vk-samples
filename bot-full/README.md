@@ -58,8 +58,8 @@ $ yarn run start:prod
 
 ## Libs
 
-1. (@nestjs/config)[https://docs.nestjs.com/techniques/configuration]
-2. (ioredis)[https://www.npmjs.com/package//ioredis]
-3. (redlock)[https://www.npmjs.com/package/redlock]
-4. (@digikare/nestjs-prom)[https://www.npmjs.com/package/@digikare/nestjs-prom]
-5. (vk-io-redis-storage)[https://socket.dev/npm/package/vk-io-redis-storage]
+1. [@nestjs/config](https://docs.nestjs.com/techniques/configuration)
+2. [ioredis](https://www.npmjs.com/package//ioredis)
+3. [redlock](https://www.npmjs.com/package/redlock)
+4. [@digikare/nestjs-prom](https://www.npmjs.com/package/@digikare/nestjs-prom)
+5. [vk-io-redis-storage](https://socket.dev/npm/package/vk-io-redis-storage)
